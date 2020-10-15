@@ -7,7 +7,7 @@ const ProductList = (props: any) => {
   const renderItem = (item: any) => (
     <List.Item>
       <Card hoverable cover={<img alt="example" src={item.imgSrc} />}>
-        <Meta title={item.title} description="www.instagram.com" />
+        <Meta title={item.title} description="$4'000.000" />
       </Card>
     </List.Item>
   );
